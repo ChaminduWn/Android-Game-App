@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">The Flying Fish</string>
+    <string name="fist_name">THE FLYING FISH</string>
+    <string name="Fish_Image">Fish Image</string>
+    <string name="game_over">Game Over</string>
+    <string name="fish_view">fish_view</string>
+    <string name="play_again">PLAY AGAIN</string>
+    <string name="score">score</string>
+    <string name="let_play">Lets Play</string>
+    <string name="play">Play</string>
+    <string name="score_placeholder">Score = %s</string>
+    <string name="game_over_score">Score = %1$s</string>
+    <string name="game_over_high_score">High Score = %1$s</string>
 </resources>
