@@ -13,6 +13,9 @@
         android:theme="@style/Theme.TheFlyingFish"
         tools:targetApi="31">
         <activity
+            android:name=".StartActivity"
+            android:exported="false" />
+        <activity
             android:name=".StartUpActivity"
             android:exported="false" />
         <activity
@@ -21,7 +24,6 @@
         <activity
             android:name=".GameView"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
