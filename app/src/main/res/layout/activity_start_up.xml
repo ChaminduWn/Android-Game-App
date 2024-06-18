@@ -6,18 +6,19 @@
     android:layout_height="match_parent"
     android:background="@drawable/fistbg3"
 
-    android:backgroundTint="@color/black"
     android:backgroundTintMode="screen"
     tools:context=".StartUpActivity">
 
 
-    <FrameLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <TextView
             android:id="@+id/fishview"
@@ -35,16 +36,45 @@
 
         <ImageView
             android:id="@+id/fish"
-            android:layout_width="322dp"
-            android:layout_height="280dp"
+            android:layout_width="wrap_content"
+            android:layout_height="268dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
             android:layout_marginStart="50dp"
-            android:layout_marginTop="300dp"
-            android:layout_marginEnd="50dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginEnd="29dp"
             android:backgroundTint="@color/black"
-            android:backgroundTintMode="screen"
             android:contentDescription="@string/app_name"
             android:src="@drawable/pufferfish_left" />
 
-    </FrameLayout>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="558dp"
+            android:layout_marginEnd="43dp"
+            android:layout_marginBottom="87dp"
+
+            android:backgroundTint="@color/carolina"
+            android:fontFamily="sans-serif"
+            android:outlineProvider="paddedBounds"
+            android:shadowColor="@color/bright_Green"
+            android:shadowRadius="10"
+            android:text="@string/play"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:cornerRadius="15dp"
+            app:rippleColor="@color/bright_Green"
+            app:strokeColor="@color/bright_Green" />
+
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
