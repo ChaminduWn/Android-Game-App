@@ -4,77 +4,76 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/firstbg10"
-    tools:context=".StartActivity">
+    android:background="@drawable/fistbg3"
+
+    android:backgroundTintMode="screen"
+    tools:context=".StartUpActivity">
+
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/fishview"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginTop="50dp"
+            android:shadowColor="@color/black"
+            android:shadowRadius="30"
+            android:text="@string/fist_name"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="70sp"
+            android:textStyle="bold"
+            tools:text="@string/fist_name" />
+
+        <ImageView
+            android:id="@+id/fish"
+            android:layout_width="wrap_content"
+            android:layout_height="268dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginEnd="29dp"
+            android:backgroundTint="@color/black"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/pufferfish_left" />
 
         <Button
-            android:id="@+id/play_btn"
-            android:layout_width="wrap_content"
+            android:id="@+id/button2"
+            android:layout_width="324dp"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="88dp"
-            android:layout_marginEnd="88dp"
-            android:layout_marginBottom="156dp"
-            android:backgroundTint="@color/teal"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="558dp"
+            android:layout_marginEnd="43dp"
+            android:layout_marginBottom="87dp"
+
+            android:backgroundTint="@color/carolina"
             android:fontFamily="sans-serif"
             android:outlineProvider="paddedBounds"
-            android:shadowColor="@color/black"
-            android:shadowRadius="100"
+            android:shadowColor="@color/bright_Green"
+            android:shadowRadius="5"
             android:text="@string/play"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textColor="@color/white"
-            android:textSize="35dp"
+            android:textSize="40dp"
             android:textStyle="bold"
             app:cornerRadius="15dp"
             app:rippleColor="@color/bright_Green"
             app:strokeColor="@color/bright_Green" />
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="381dp"
-            android:layout_height="121dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="121dp"
-            android:layout_marginEnd="14dp"
-            android:backgroundTint="@color/light_Cyan"
-            android:backgroundTintMode="screen"
-            android:shadowColor="@color/black"
-            android:shadowRadius="80"
-            android:text="@string/let_play"
-            android:textAlignment="center"
-            android:textColor="@color/light_Cyan"
-            android:textSize="80sp"
-            android:textStyle="bold" />
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="219dp"
-            android:layout_height="557dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginStart="88dp"
-            android:layout_marginTop="88dp"
-            android:layout_marginEnd="104dp"
-            android:foregroundTint="@color/blue_Green"
-            android:visibility="visible"
-            app:srcCompat="@drawable/pufferfish_right" />
 
     </RelativeLayout>
 
