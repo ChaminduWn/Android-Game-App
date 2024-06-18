@@ -6,7 +6,7 @@
     <string name="fish_view">fish_view</string>
     <string name="play_again">PLAY AGAIN</string>
     <string name="score">score</string>
-    <string name="let_play">Lets Play</string>
+    <string name="let_play">Let's Play</string>
     <string name="play">Play</string>
     <string name="score_placeholder">Score = %s</string>
     <string name="game_over_score">Score = %1$s</string>

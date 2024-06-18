@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/firstbg2"
+    android:background="@drawable/firstbg10"
     tools:context=".StartActivity">
 
     <RelativeLayout
@@ -26,31 +26,56 @@
             android:layout_alignParentBottom="true"
             android:layout_marginStart="88dp"
             android:layout_marginEnd="88dp"
-            android:layout_marginBottom="239dp"
-            android:backgroundTint="@color/light_yellow"
-            android:shadowColor="#FFFFFF"
+            android:layout_marginBottom="156dp"
+            android:backgroundTint="@color/teal"
+            android:fontFamily="sans-serif"
+            android:outlineProvider="paddedBounds"
+            android:shadowColor="@color/black"
+            android:shadowRadius="100"
             android:text="@string/play"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
             android:textSize="35dp"
             android:textStyle="bold"
-            app:cornerRadius="15dp" />
+            app:cornerRadius="15dp"
+            app:rippleColor="@color/bright_Green"
+            app:strokeColor="@color/bright_Green" />
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="336dp"
-            android:layout_height="127dp"
+            android:layout_width="381dp"
+            android:layout_height="121dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginStart="45dp"
-            android:layout_marginTop="187dp"
-            android:layout_marginEnd="30dp"
-            android:shadowColor="#EFEFE9"
-            android:shadowRadius="50"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="121dp"
+            android:layout_marginEnd="14dp"
+            android:backgroundTint="@color/light_Cyan"
+            android:backgroundTintMode="screen"
+            android:shadowColor="@color/black"
+            android:shadowRadius="80"
             android:text="@string/let_play"
             android:textAlignment="center"
-            android:textColor="@color/white"
-            android:textSize="70sp"
+            android:textColor="@color/light_Cyan"
+            android:textSize="80sp"
             android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="219dp"
+            android:layout_height="557dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="88dp"
+            android:layout_marginEnd="104dp"
+            android:foregroundTint="@color/blue_Green"
+            android:visibility="visible"
+            app:srcCompat="@drawable/pufferfish_right" />
+
     </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

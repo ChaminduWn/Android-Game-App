@@ -5,6 +5,7 @@
     <color name="light_yellow">#ffff90</color>
     <color name="yellow">#FFFF00</color>
     <color name="yellow1">#FEDF00</color>
+    <color name="yellogreen"> #123456</color>
     <color name="colorAccent"> #800080 </color>
     <color name="blue_button"> #0492c2 </color>
     <color name="blue_button1"> #48AAAD </color>
@@ -16,6 +17,30 @@
     <color name="bright_Green">#AAFF00	</color>
     <color name="darkgrenn_blue">#003B46</color>
     <color name="green_blue">#07575B</color>
+    <color name="light_gray"> #3f3f3f</color>
+
+    <color name="green1_blue">#81D8D0</color>
+    <color name="teal">#008080</color>
+    <color name="royal">#101D6B</color>
+    <color name="navy">#000080</color>
+    <color name="carolina">#57A0D3</color>
+
+    <color name="sun_glow">#FFCC33</color>
+    <color name="golden_brown">#996515</color>
+    <color name="old_gold">#CFB53B</color>
+
+    <color name="light_Cyan">#E0FFFF</color>
+
+    <color name="acqua">#00FFFF</color>
+    <color name="dark_cyan">#008B8B</color>
+    <color name="light_blue">#ADD8E6</color>
+    <color name="sea_green">#2E8B57</color>
+    <color name="very_light_gray">#F5F5F5</color>
+
+
+
+
+
 
 
 
