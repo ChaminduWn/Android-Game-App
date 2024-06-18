@@ -48,7 +48,7 @@
             android:src="@drawable/pufferfish_left" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/play_btn"
             android:layout_width="324dp"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -64,7 +64,7 @@
             android:fontFamily="sans-serif"
             android:outlineProvider="paddedBounds"
             android:shadowColor="@color/bright_Green"
-            android:shadowRadius="5"
+            android:shadowRadius="2"
             android:text="@string/play"
             android:textAlignment="center"
             android:textAllCaps="true"

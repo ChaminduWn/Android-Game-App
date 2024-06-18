@@ -28,10 +28,10 @@ class GameOverActivity : AppCompatActivity() {
         displayScore = findViewById(R.id.displayScore)
         displayHighestScore = findViewById(R.id.displayHighestScore)
 
-//        startGameAgain.setOnClickListener {
-//            val mainIntent = Intent(this@GameOverActivity, StartActivity::class.java)
-//            startActivity(mainIntent)
-//        }
+        startGameAgain.setOnClickListener {
+            val mainIntent = Intent(this@GameOverActivity, StartActivity::class.java)
+            startActivity(mainIntent)
+        }
         score?.let {
             val formattedScore = getString(R.string.game_over_score, it)
             displayScore.text = formattedScore
