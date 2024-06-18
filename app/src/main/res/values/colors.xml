@@ -8,4 +8,15 @@
     <color name="colorAccent"> #800080 </color>
     <color name="blue_button"> #0492c2 </color>
     <color name="blue_button1"> #48AAAD </color>
+
+    <color name="muted_yellow"> #fdfd96 </color>
+    <color name="pistol_yellow"> #FDFD96 </color>
+
+    <color name="blue_Green"> #088F8F</color>
+    <color name="bright_Green">#AAFF00	</color>
+    <color name="darkgrenn_blue">#003B46</color>
+    <color name="green_blue">#07575B</color>
+
+
+
 </resources>

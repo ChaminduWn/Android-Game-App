@@ -27,7 +27,7 @@
             android:layout_marginStart="88dp"
             android:layout_marginEnd="88dp"
             android:layout_marginBottom="239dp"
-            android:backgroundTint="@color/yellow1"
+            android:backgroundTint="@color/light_yellow"
             android:shadowColor="#FFFFFF"
             android:text="@string/play"
             android:textSize="35dp"
