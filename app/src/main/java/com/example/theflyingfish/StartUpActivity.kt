@@ -13,7 +13,7 @@ class StartUpActivity : AppCompatActivity() {
 
         // Delay for 5 seconds before navigating to SplashActivity
         Handler(Looper.getMainLooper()).postDelayed({
-           // startActivity(Intent(this, StartActivity::class.java))
+            startActivity(Intent(this, StartActivity::class.java))
             finish()
         }, 5000) // 5000 milliseconds = 5 seconds
     }
