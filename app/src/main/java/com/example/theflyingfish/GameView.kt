@@ -178,7 +178,7 @@ class GameView(context: Context, attrs: AttributeSet? = null) : View(context, at
             soundEffect2?.start()
 
             if (lifeCounterOfFish == 0) {
-                Toast.makeText(context, "Game Over", Toast.LENGTH_SHORT).show()
+              //  Toast.makeText(context, "Game Over", Toast.LENGTH_SHORT).show()
                 val gameOverIntent = Intent(context, GameOverActivity::class.java).apply {
                     addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
                     putExtra("score", score)
