@@ -62,7 +62,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/fish"
         app:layout_constraintVertical_bias="0.237"
-        app:rippleColor="@color/bright_Green"
-        app:strokeColor="@color/bright_Green" />
+        app:rippleColor="@color/carolina"
+        app:strokeColor="@color/carolina" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
