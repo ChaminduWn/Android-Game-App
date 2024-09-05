@@ -12,6 +12,7 @@ The Flying Fish is a simple Android game where players control a fish to avoid o
 - Game over screen with the option to play again
 
 ## Screenshots
+![App Design Plan Brainstorm Classroom Worksheet](https://github.com/user-attachments/assets/5e3d7437-0a0e-4c95-986e-273b79c1d5d9)
 
 <p align="center">
   
