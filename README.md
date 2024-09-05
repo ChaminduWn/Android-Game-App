@@ -14,8 +14,13 @@ The Flying Fish is a simple Android game where players control a fish to avoid o
 ## Screenshots
 
 <p align="center">
+  
+  <im src="![App Design Plan Brainstorm Classroom Worksheet](https://github.com/user-attachments/assets/667eb302-4f73-47e8-b2b4-e1ba577c2067)"/>
+
   <img src="https://github.com/chamindu2001/Android-Game-App/assets/127916715/06872a8c-4bc3-49e8-ba0e-b1cb16a9e095" width="200" style="margin-right: 30px; " />
   <img src="https://github.com/chamindu2001/Android-Game-App/assets/127916715/9adc3a6b-fa8a-4dae-9db8-3aa8010d16d4" width="200" style="margin-right: 30px;" />
+  ![App Design Plan Brainstorm Classroom Worksheet](https://github.com/user-attachments/assets/061c7127-0611-49a4-9dd1-e366119d4132)
+
 </p>
 <p align="center">
   <img src="https://github.com/chamindu2001/Android-Game-App/assets/127916715/2cf33ecc-d3cb-406d-912e-682f18c1dd3f" width="200" style="margin-right: 30px;" />
